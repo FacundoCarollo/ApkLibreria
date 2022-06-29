@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#384053"
+    tools:context=".Usuario.Gestion">
+
+    <TextView
+        android:id="@+id/lbl_apellido"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="140dp"
+        android:elevation="5dp"
+        android:text="Apellido"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewNombre"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="100dp"
+        android:elevation="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewApellido"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewDni"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_cambioContraseña"
+        android:layout_width="259dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="180dp"
+        android:elevation="5dp"
+        android:text="Cambio de contraseña"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_nombre"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="100dp"
+        android:elevation="5dp"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_detatalle"
+        android:layout_width="317dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:elevation="5dp"
+        android:text="Detalles del usuario"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblDNI"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="60dp"
+        android:elevation="5dp"
+        android:text="DNI"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:background="#474959"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/cambiar_Password"
+        android:layout_width="166dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="235dp"
+
+        android:backgroundTint="#2196F3"
+        android:text="Cambiar Contraseña"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/cambio_password"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Ingrese su nueva password"
+
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/cambio_repetirPassword"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Repita su password"
+
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
